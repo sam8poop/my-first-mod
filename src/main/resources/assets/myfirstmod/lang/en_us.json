@@ -9,5 +9,7 @@
   "block.myfirstmod.pink_garnet_deepslate_ore": "DEEP balls",
 
   "itemgroup.myfirstmod.pink_garnet_items": "gar nets",
-  "itemgroup.myfirstmod.pink_garnet_blocks": "gargle my balls"
+  "itemgroup.myfirstmod.pink_garnet_blocks": "gargle my balls",
+
+  "item.myfirstmod.chisel": "chisel"
 }
