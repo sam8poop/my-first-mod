@@ -2,6 +2,7 @@ package net.chase.myfirstmod;
 
 import net.chase.myfirstmod.block.Modblocks;
 import net.chase.myfirstmod.item.ModItems;
+import net.chase.myfirstmod.item.ModitemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +14,8 @@ public class MyFirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModitemGroups.registerItemGroups();
+		
 		ModItems.registsrModItems();
 		Modblocks.registerModBlocks();
 	}
