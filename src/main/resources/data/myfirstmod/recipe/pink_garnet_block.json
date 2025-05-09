@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "ggg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "myfirstmod:pink_garnet"
+    }
+  },
+  "result": {
+    "id": "myfirstmod:pink_garnet_block",
+    "count": 1
+  }
+}
