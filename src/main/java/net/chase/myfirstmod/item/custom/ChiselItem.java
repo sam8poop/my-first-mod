@@ -24,7 +24,9 @@ public class ChiselItem extends Item {
                     Blocks.TNT, Blocks.NETHER_PORTAL,
                     Blocks.NETHER_PORTAL, Blocks.TNT,
                     Blocks.SAND, Blocks.GLASS,
-                    Blocks.GLASS, Blocks.SAND
+                    Blocks.GLASS, Blocks.SAND,
+                    Blocks.OBSIDIAN, Blocks.BEDROCK,
+                    Blocks.BEDROCK, Blocks.OBSIDIAN
 
 
             );

@@ -12,6 +12,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PINK_GARNET = registeritem("pink_garnet", new Item(new Item.Settings()));
     public static final Item RAW_PINK_GARNET = registeritem("raw_pink_garnet", new Item(new Item.Settings()));
+    public static final Item ENDER_INGOT = registeritem("ender_ingot", new Item(new Item.Settings()));
+
 
     public static final Item CHISEL = registeritem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 

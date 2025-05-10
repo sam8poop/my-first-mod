@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "myfirstmod:ender_block"
+    }
+  ],
+  "result": {
+    "id": "myfirstmod:ender_ingot",
+    "count": 9
+  }
+}

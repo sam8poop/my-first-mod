@@ -1,6 +1,7 @@
 package net.chase.myfirstmod.block;
 
 import net.chase.myfirstmod.MyFirstMod;
+import net.chase.myfirstmod.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -22,12 +23,19 @@ public class Modblocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool()));
 
+    public static final Block ENDER_BLOCK = registerBlock("ender_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block MAGIC_BLOCK =registerBlock("magic_block",
+        new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

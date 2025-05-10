@@ -1,15 +1,18 @@
 {
   "item.myfirstmod.pink_garnet": "Pink gar",
-  "item.myfirstmod.raw_pink_garnet":  "suck my balls",
+  "item.myfirstmod.raw_pink_garnet": "suck my balls",
+  "item.myfirstmod.ender_ingot": "Ender Ingot",
 
   "block.myfirstmod.pink_garnet_block": "spiky balls",
   "block.myfirstmod.raw_pink_garnet_block": "spicy balls",
 
   "block.myfirstmod.pink_garnet_ore": "stoney balls",
   "block.myfirstmod.pink_garnet_deepslate_ore": "DEEP balls",
+  "block.myfirstmod.magic_block": "magic balls",
+  "block.myfirstmod.ender_block": "Ender Steel Block",
 
   "itemgroup.myfirstmod.pink_garnet_items": "gar nets",
-  "itemgroup.myfirstmod.pink_garnet_blocks": "gargle my balls",
+  "itemgroup.myfirstmod.pink_garnet_blocks": "my balls",
 
   "item.myfirstmod.chisel": "chisel"
 }
