@@ -21,7 +21,7 @@ public class ModitemGroups {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
 
-                        entries.add(ModItems.ENDER_INGOT);
+                        entries.add(ModItems.CAULIFLOWER);
 
                         entries.add(ModItems.CHISEL);
                     }).build());
@@ -36,12 +36,20 @@ public class ModitemGroups {
                         entries.add(Modblocks.PINK_GARNET_DEEPSLATE_ORE);
                         entries.add(Modblocks.PINK_GARNET_ORE);
 
-                        entries.add(Modblocks.ENDER_BLOCK);
-
                         entries.add(Modblocks.MAGIC_BLOCK);
 
-                    }).build());
 
+
+                    }).build());
+    public static final ItemGroup ENDER_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(MyFirstMod.MOD_ID, "ender_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Modblocks.ENDER_BLOCK))
+                    .displayName(Text.translatable("itemgroup.myfirstmod.ender_group"))
+                    .entries((displayContext, entries) -> {
+                       entries.add(ModItems.ENDER_INGOT);
+                       entries.add(Modblocks.ENDER_BLOCK);
+
+                    }).build());
 
 
     public static void registerItemGroups() {

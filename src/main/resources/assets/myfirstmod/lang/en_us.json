@@ -3,6 +3,8 @@
   "item.myfirstmod.raw_pink_garnet": "suck my balls",
   "item.myfirstmod.ender_ingot": "Ender Ingot",
 
+  "item.myfirstmod.cauliflower": "Cauliflower",
+
   "block.myfirstmod.pink_garnet_block": "spiky balls",
   "block.myfirstmod.raw_pink_garnet_block": "spicy balls",
 
@@ -13,6 +15,7 @@
 
   "itemgroup.myfirstmod.pink_garnet_items": "gar nets",
   "itemgroup.myfirstmod.pink_garnet_blocks": "my balls",
+  "itemgroup.myfirstmod.ender_group": "Ender Steal",
 
   "item.myfirstmod.chisel": "chisel"
 }
